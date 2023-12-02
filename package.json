@@ -37,7 +37,26 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "mask-view",
+    "animated-view",
+    "translatable-view",
+    "toggle-display",
+    "dynamic-masking",
+    "react-native-animation",
+    "animated-mask",
+    "mobile-ui-component",
+    "interactive-view",
+    "react-native-mask",
+    "ui-animation",
+    "visibility-toggle",
+    "orientation-responsive",
+    "custom-mask",
+    "react-native-mask-element",
+    "animated-component",
+    "react-native-dynamic",
+    "mask-animation",
+    "position-animation"
   ],
   "repository": "https://github.com/ng-sushil/react-native-mask-view",
   "author": "ng-sushil <sushil.shinde@ngenux.com> (https://github.com/ng-sushil)",
@@ -47,7 +66,8 @@
   },
   "homepage": "https://github.com/ng-sushil/react-native-mask-view#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.2",

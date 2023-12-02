@@ -1,18 +1,37 @@
 import * as React from 'react';
-
 import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from '@ngenux/react-native-mask-view';
+import MaskView from '@ngenux/react-native-mask-view';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <MaskView
+        translatable={false}
+        toggleDisplay={true}
+        initialPosition={{ x: 200, y: 400 }}
+        translateDuration={1000}
+        MaskWidth={150}
+        MaskHeight={50}
+        orientation='PORTRAIT'
+      >
+        <View
+          style={{
+            alignItems: 'flex-end',
+            justifyContent: 'center',
+            opacity: 0.5,
+          }}
+        >
+          <Text
+            style={{
+              fontWeight: 'bold',
+              fontSize: 9,
+              color: 'black',
+            }}
+          >
+            @ngenux/react-native-mask-view
+          </Text>
+        </View>
+      </MaskView>
     </View>
   );
 }
