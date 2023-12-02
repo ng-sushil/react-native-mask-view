@@ -1,6 +1,6 @@
 {
   "name": "@ngenux/react-native-mask-view",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React Native component that offers a highly customizable mask view with dynamic visibility and position features.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
